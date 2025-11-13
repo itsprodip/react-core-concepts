@@ -9,8 +9,8 @@ export default function Counter(){
     }
     return (
         <div>
-           <h3>Count: {count}</h3>
-            <button onClick={handleAddBtn}>Add</button>
+        <h3>Count: {count}</h3>
+        <button onClick={handleAddBtn}>Add</button>
         </div>
     )
 }
