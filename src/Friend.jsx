@@ -1,6 +1,6 @@
 export default function friend({ friend }) {
   const { name, email, id, username,address,website,company ,phone} = friend;
-    console.log(address);
+    
     const{street,suite,city,zipcode} =address;
     const {companyName}=company;
   return (
